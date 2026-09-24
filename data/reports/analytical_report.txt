@@ -1,0 +1,23 @@
+======================================================================
+EDM ANALYTICS PIPELINE — SUMMARY REPORT (SYNTHETIC DATA)
+======================================================================
+
+Total students analyzed        : 10,000
+Average attendance rate        : 77.83%
+Average assessment score       : 70.42 / 100
+Average final exam score       : 66.24 / 100
+
+Risk level distribution:
+  LOW RISK       : 2,543 students (25.4%)
+  MODERATE RISK  : 7,337 students (73.4%)
+  HIGH RISK      : 120 students (1.2%)
+
+Observations (descriptive, correlational — not causal):
+  - Attendance rate is correlated with final exam score (Pearson r = 0.647). Students with higher attendance tend to show higher final exam scores in this synthetic dataset; this reflects the correlational structure built into the data generator, not a causal claim about any real population.
+  - Pre-exam assessment average is correlated with final exam score (Pearson r = 0.792), consistent with assessments functioning as leading indicators of exam performance.
+  - Students classified as HIGH RISK show a mean attendance rate of 45.6% and mean final exam score of 35.0, compared to 91.2% attendance and 81.1 final exam score among LOW RISK students — consistent with the risk score's intended purpose of flagging students exhibiting patterns associated with academic risk.
+  - The best-performing predictive model on held-out synthetic data was RandomForestRegressor (R² = 0.750, MAE = 5.76). This model is trained and evaluated on SYNTHETIC data only and is not validated for deployment in any real educational institution.
+
+All figures above are computed directly from the generated dataset;
+no conclusions in this report are fabricated or assumed.
+======================================================================

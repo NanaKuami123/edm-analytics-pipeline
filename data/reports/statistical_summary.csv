@@ -1,0 +1,10 @@
+variable,mean,median,std_dev,min,max,pearson_r_with_final_exam_score,p_value
+attendance_rate,77.834,78.35,13.622,0.0,100.0,0.6472,0.0
+study_hours_per_week,15.175,15.04,7.488,0.0,40.0,0.6095,0.0
+assignment_score,72.227,72.23,13.313,0.0,100.0,,
+quiz_score,70.202,70.31,14.735,0.0,100.0,,
+midterm_score,68.225,68.38,15.551,0.0,100.0,,
+continuous_assessment,71.01,71.13,13.317,0.0,100.0,0.6373,0.0
+previous_gpa,2.518,2.52,0.598,0.13,4.0,0.6711,0.0
+final_exam_score,66.24,66.47,14.806,0.0,100.0,,
+risk_score,36.892,36.67,10.049,9.73,74.68,-0.818,0.0
